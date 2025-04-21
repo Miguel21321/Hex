@@ -40,7 +40,7 @@ G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["5"]["BackgroundTransparency"] = 1;
 G2L["5"]["Size"] = UDim2.new(0, 200, 0, 51);
 G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5"]["Text"] = [[Sander X Panel]];
+G2L["5"]["Text"] = [[Hex Panel]];
 G2L["5"]["Position"] = UDim2.new(0.02167, 0, 0.00293, 0);
 
 
@@ -272,7 +272,7 @@ G2L["1c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1c"]["BackgroundTransparency"] = 1;
 G2L["1c"]["Size"] = UDim2.new(0, 509, 0, 50);
 G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c"]["Text"] = [[Sander X panel was made by dnezero. The rest of Sander X was made by SanderDev/WojtesDev.]];
+G2L["1c"]["Text"] = [[Hex panel was made by dnezero. The rest of Hex was made by HexDev/WojtesDev.]];
 G2L["1c"]["Position"] = UDim2.new(0, 0, 1.01894, 0);
 
 
@@ -504,7 +504,7 @@ local function C_14()
 local script = G2L["14"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/SanderXV4.2.2/refs/heads/main/NormalSS.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/HexXV4.2.2/refs/heads/main/NormalSS.lua'))()
 	end)
 end;
 task.spawn(C_14);
@@ -513,7 +513,7 @@ local function C_1b()
 local script = G2L["1b"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/SanderXV4.2.2/refs/heads/main/SanderXVip.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/HexXV4.2.2/refs/heads/main/HexXVip.lua'))()
 	end)
 end;
 task.spawn(C_1b);
@@ -521,7 +521,7 @@ task.spawn(C_1b);
 local function C_22()
 local script = G2L["22"];
 	script.Parent.MouseButton1Click:Connect(function()
-		setclipboard("https://www.roblox.com/it/communities/35289663/Sander-X-Team#!/about")
+		setclipboard("https://www.roblox.com/it/communities/35289663/Hex-X-Team#!/about")
 	end)
 end;
 task.spawn(C_22);
@@ -529,7 +529,7 @@ task.spawn(C_22);
 local function C_28()
 local script = G2L["28"];
 	script.Parent.MouseButton1Click:Connect(function()
-		setclipboard("https://www.roblox.com/it/catalog/80680383943488/Sander-X-SanderDev-Shirt")
+		setclipboard("https://www.roblox.com/it/catalog/80680383943488/Hex-X-HexDev-Shirt")
 	end)
 end;
 task.spawn(C_28);
