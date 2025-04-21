@@ -1,4 +1,4 @@
-local Orion1 = game.CoreGui:FindFirstChild("Sander X Normal <Orion Lib>")
+local Orion1 = game.CoreGui:FindFirstChild("Hex Normal <Orion Lib>")
 
 if OrionR then
   OrionR:Destroy()
@@ -57,7 +57,7 @@ guiRH = Instance.new("ScreenGui",Orion)
 nextb = Instance.new("ImageButton", guiRH)
 gui = Instance.new("UICorner", nextb)
 
-Orion.Name = "Sander X Normal <Orion Lib>"
+Orion.Name = "Hex Normal <Orion Lib>"
 
 guiRH.Name = "Minimize"
 nextb.Position = UDim2.new(0,100,0,60)
@@ -480,14 +480,14 @@ function OrionLib:MakeWindow(WindowConfig)
 	local UIHidden = false
 
 	WindowConfig = WindowConfig or {}
-	WindowConfig.Name = WindowConfig.Name or "Sander X Normal"
+	WindowConfig.Name = WindowConfig.Name or "Hex Normal"
 	WindowConfig.ConfigFolder = WindowConfig.ConfigFolder or WindowConfig.Name
 	WindowConfig.SaveConfig = WindowConfig.SaveConfig or false
 	WindowConfig.HidePremium = WindowConfig.HidePremium or false
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
-	WindowConfig.IntroText = WindowConfig.IntroText or "Sander X Normal"
+	WindowConfig.IntroText = WindowConfig.IntroText or "Hex Normal"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://8834748103"
@@ -673,11 +673,11 @@ function OrionLib:MakeWindow(WindowConfig)
 	end)
 	
 	AddConnection(CloseBtn.MouseButton1Up, function()
-	  OrionLib:MakeNotification({Name = "Sander X Normal",Content = "Destroying the Script..." ,Image = "rbxassetid://",Time = 5})task.wait(1)
+	  OrionLib:MakeNotification({Name = "Hex Normal",Content = "Destroying the Script..." ,Image = "rbxassetid://",Time = 5})task.wait(1)
 	  Orion:Destroy()
 	end)
 
-	OrionLib:MakeNotification({Name = "Sander X Normal",Content = "Running script..." ,Image = "rbxassetid://",Time = 5})
+	OrionLib:MakeNotification({Name = "Hex Normal",Content = "Running script..." ,Image = "rbxassetid://",Time = 5})
 
 	local function LoadSequence()
 		MainWindow.Visible = false
