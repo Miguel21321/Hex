@@ -504,7 +504,7 @@ local function C_14()
 local script = G2L["14"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/HexXV4.2.2/refs/heads/main/NormalSS.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Miguel21321/HexXV4.2.2/refs/heads/main/NormalSS.lua'))()
 	end)
 end;
 task.spawn(C_14);
@@ -513,7 +513,7 @@ local function C_1b()
 local script = G2L["1b"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/HexXV4.2.2/refs/heads/main/HexXVip.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Miguel21321/HexXV4.2.2/refs/heads/main/HexXVip.lua'))()
 	end)
 end;
 task.spawn(C_1b);
